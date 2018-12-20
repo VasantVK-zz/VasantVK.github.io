@@ -1,4 +1,22 @@
+/*
+images sourced from
+https://businessideasfor2013.blogspot.com/2017/04/texas-outline-map.html
+http://art-en-provence.com/blank-map-of-california-printable/
+https://www.waterproofpaper.com/printable-maps/nevada/nevada-outline-map.pdf
 
+
+		<form>
+			<div>
+				<label>Gender</label>
+				<select name="gender">
+					<option value="male">Male</option>
+					<option value="female">Female</option>
+					<option value="other">Other</option>
+				</select>
+			</div>
+		</form>
+
+*/
 
 body{
 	background-color: #fff;
@@ -10,29 +28,32 @@ body{
 	margin-top: 10px;
 }
 
+header {
+	background-color: maroon; 
+	display: flex;
+}
 
-
-
-header h1 {
+header h1{
 	font-size: 50px;
 	text-align: center;
 	text-decoration-line: underline overline;
 	text-decoration-style: double;
 	text-decoration-color: maroon;
 	position: relative;
-	margin-top: -100px;
-	margin-bottom: 100px;
+}
+/*
+a {
+	color: yellow;
 }
 
+a:visited {
+	color: gray;
+}
+*/
 header .pic {
 	margin-left: 50px;
-	border: 5px red outset;
+	border: 5px black outset;
 	border-radius: 50px;
-}
-
-#main-block {
-	border: 5px solid #555;
-	border-radius: 15px;
 }
 
 .container {
@@ -43,33 +64,104 @@ header .pic {
 
 }
 
-#travel {
+.traveled {
 
 }
 
-
+.tx {
+	position: relative;
+	margin: 5px;
+}
 
 .box {
 	border: solid black;
-}
-
-.continents {
-	text-align: left;
+	height: 500px;
 	position: relative;
 }
 
-.overlay {
+/* state formatting */
+.txtraveled {
+	text-align: left;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+.txoverlay {
 	position: absolute;
 	background-color: #000;
 	overflow: hidden;
-	width: 50%;
+	width: 33.3%;
 	height: 0;
 	transition: .5s ease;
 }
 
-.box:hover .overlay {
+.txtraveled:hover .txoverlay {
   height: 100%;
 }
+
+.catraveled {
+	text-align: left;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.caoverlay {
+	position: absolute;
+	background-color: #000;
+	overflow: hidden;
+	width: 33.3%;
+	height: 0;
+	transition: .5s ease;
+}
+
+.catraveled:hover .caoverlay {
+  height: 100%;
+}
+
+.nvtraveled {
+	text-align: left;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+.nvoverlay {
+	position: absolute;
+	background-color: #000;
+	overflow: hidden;
+	width: 33.3%;
+	height: 0;
+	transition: .5s ease;
+}
+
+.nvtraveled:hover .nvoverlay {
+  height: 100%;
+}
+
+/* end state formatting */
+/*
+.overlay {
+	position: absolute;
+	background-color: #000;
+	overflow: hidden;
+	width: 33.3%;
+	height: 0;
+	transition: .5s ease;
+}
+
+.overlay .text-loc{
+	left: 66.7%;
+}
+
+.overlay .img-loc{
+	left: 33.3%;
+}
+
+.box:hover .overlay {
+  height: 100%;
+} */
 
 .footer {
 	position: fixed;
@@ -81,11 +173,10 @@ header .pic {
 	text-align: center;
 }
 
-.block{
+.block {
 	float: left;
 	width:33.3%;
-	border:3px solid #555; 
-	border-radius: 2px;
+	border:5px solid #555;
 	background-color: #000;
 	box-sizing:border-box;
 	color: white;
@@ -97,3 +188,18 @@ header .pic {
 	margin-left: -40px;
 	list-style: none;
 }
+
+.linkedin {
+	border: 0px solid black;
+	border-radius: 13px;
+}
+
+#main-block {
+	display: flex;
+	border: 5px solid #555;
+	border-radius: 10px;
+	padding-left: 1px;
+	margin-left: 5%;
+	width: 90%;
+}
+
