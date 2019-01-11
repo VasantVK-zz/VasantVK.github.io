@@ -1,0 +1,173 @@
+
+
+/* Left side links */
+
+.linkboxl {
+	position: fixed;
+	display: inline-block;
+	left: 0px;
+	width: 50px;
+	height: 50px;
+	padding-top: 5px;
+	padding-bottom: 2px;
+	padding-right: 3px;
+	background-color: black;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border: 5px solid;
+	border-color: darkgray;
+	border-left-color: black;
+	color: white;
+	text-align: left;
+	transition: width 2s;
+}
+
+.linkboxl:after {
+	opacity: 0;
+	font-family: 'Orbitron', sans-serif;
+	font-size: 20px;
+}
+
+.linkboxl:hover {
+	width: 160px;
+}
+
+
+.linkboxl:hover:after {
+	position: absolute;
+	opacity: 1;
+	margin-left: 15px;
+	bottom: 40%;
+	transition-delay: 1s;
+	transition-duration: 1s;
+}
+
+#resume {
+	position: relative;
+	left: 3px;
+	padding: 3px;
+	border: lightgray 3px inset;
+	border-radius: 90px;
+}
+
+#resumebox {
+	bottom: 160px;
+}
+
+#resumebox:after {
+	content: 'Resume';
+}
+
+#linkedin {
+	border-radius: 10px;
+}
+
+#linkedinbox {
+	bottom: 90px;
+}
+
+#linkedinbox:after {
+	content: 'LinkedIn';
+}
+
+#github {
+	margin-top: 1px;
+}
+
+#githubbox {
+	bottom: 20px;
+}
+
+
+#githubbox:after {
+	content: 'GitHub';
+}
+
+/* Right side links */
+
+.linkboxr {
+	position: fixed;
+	display: inline-block;
+	right: 0px;
+	width: 50px;
+	height: 50px;
+	padding-top: 5px;
+	padding-bottom: 3px;
+	padding-left: 3px;
+	background-color: black;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border: 5px solid;
+	border-color: darkgray;
+	border-right-color: black;
+	color: white;
+	text-align: right;
+	transition: width 2s;
+}
+
+.linkboxr:before {
+	opacity: 0;
+	font-family: 'Orbitron', sans-serif;
+	font-size: 20px;
+	left: 0px;
+}
+
+.linkboxr:hover {
+	width: 230px;
+}
+
+
+.linkboxr:hover:before {
+	position: absolute;
+	opacity: 1;
+	margin-left: 15px;
+	top: 40%;
+	transition-delay: 1s;
+	transition-duration: 1s;
+}
+
+#corps {
+	position: absolute;
+	bottom: 5px;
+	right: 0px;
+}
+
+#corpsbox {
+	bottom: 160px;
+}
+
+#corpsbox:before {
+	content: 'Corps of Cadets';
+	font-size: 18px;
+}
+
+#cyberm {
+	position: absolute;
+	bottom: 5px;
+	right: -10px;
+}
+
+#cybermbox {
+	bottom: 90px;
+}
+
+#cybermbox:before {
+	content: 'Cybermanufacturing';
+	font-size: 15px;
+}
+
+#aginvent {
+	position: absolute;
+	bottom: 5px;
+	right: 0px;
+	border-radius: 10px;
+	background-color: goldenrod;
+}
+
+#aginventbox {
+	bottom: 20px;
+}
+
+#aginventbox:before {
+	content: 'Aggies Invent';
+}

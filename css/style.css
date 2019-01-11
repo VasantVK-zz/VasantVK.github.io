@@ -19,8 +19,9 @@ https://www.waterproofpaper.com/printable-maps/nevada/nevada-outline-map.pdf
 */
 
 body{
-	background-color: #fff;
-	color: #000000;
+	/*background-color: #000;*/
+	background-color: #000;
+	color: #fff;
 	font-family: Lucida Bright, serif;
 	font-size:14px;
 	line-height:1em;
@@ -41,7 +42,7 @@ header h1{
 	text-decoration-color: maroon;
 	position: relative;
 }
-/*
+
 a {
 	color: yellow;
 }
@@ -49,7 +50,7 @@ a {
 a:visited {
 	color: gray;
 }
-*/
+
 header .pic {
 	margin-left: 50px;
 	border: 5px black outset;
@@ -64,81 +65,16 @@ header .pic {
 
 }
 
-.traveled {
-
-}
-
-.tx {
-	position: relative;
-	margin: 5px;
-}
-
 .box {
-	border: solid black;
+	border: solid white;
+	left:5%;
+	width: 90%;
 	height: 500px;
 	position: relative;
 }
 
 /* state formatting */
-.txtraveled {
-	text-align: left;
-	position: relative;
-	top: 0;
-	left: 0;
-}
 
-.txoverlay {
-	position: absolute;
-	background-color: #000;
-	overflow: hidden;
-	width: 33.3%;
-	height: 0;
-	transition: .5s ease;
-}
-
-.txtraveled:hover .txoverlay {
-  height: 100%;
-}
-
-.catraveled {
-	text-align: left;
-	position: absolute;
-	top: 0;
-	left: 0;
-}
-
-.caoverlay {
-	position: absolute;
-	background-color: #000;
-	overflow: hidden;
-	width: 33.3%;
-	height: 0;
-	transition: .5s ease;
-}
-
-.catraveled:hover .caoverlay {
-  height: 100%;
-}
-
-.nvtraveled {
-	text-align: left;
-	position: relative;
-	top: 0;
-	left: 0;
-}
-
-.nvoverlay {
-	position: absolute;
-	background-color: #000;
-	overflow: hidden;
-	width: 33.3%;
-	height: 0;
-	transition: .5s ease;
-}
-
-.nvtraveled:hover .nvoverlay {
-  height: 100%;
-}
 
 /* end state formatting */
 /*
@@ -163,11 +99,24 @@ header .pic {
   height: 100%;
 } */
 
-.footer {
+.contact {
+	overflow: hidden;
 	position: fixed;
-	left: 0px;
+	left: 45%;
 	bottom: 0px;
-	width: 100%;
+	width: 10%;
+	height: 10%;
+	background-color: black;
+	color: white;
+	text-align: center;
+	transition: width 2s;
+}
+
+.contact:hover {
+	position: fixed;
+	right: 0px;
+	bottom: 0px;
+	width: 10%;
 	background-color: black;
 	color: white;
 	text-align: center;
@@ -175,7 +124,7 @@ header .pic {
 
 .block {
 	float: left;
-	width:33.3%;
+	width:50%;
 	border:5px solid #555;
 	background-color: #000;
 	box-sizing:border-box;
