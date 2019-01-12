@@ -1,0 +1,95 @@
+/* Left side links */
+
+*{
+	z-index: 500;
+}
+
+.links {
+	position: sticky;
+	bottom: 0px;	
+}
+
+.linkboxl {
+	position: absolute;
+	display: inline-block;
+	bottom: 0px;
+	left: 0px;
+	width: 50px;
+	height: 55px;
+	padding-top: 5px;
+	padding-bottom: 2px;
+	padding-right: 3px;
+	background-color: black;
+	border: 3px solid;
+	border-color: white;
+	border-left-color: black;
+	color: white;
+	text-align: left;
+	transition: width 2s;
+}
+
+.linkboxl:after {
+	opacity: 0;
+	font-family: 'Orbitron', sans-serif;
+	font-size: 20px;
+}
+
+.linkboxl:hover {
+	width: 160px;
+}
+
+
+.linkboxl:hover:after {
+	position: absolute;
+	opacity: 1;
+	margin-left: 15px;
+	bottom: 40%;
+	transition-delay: 1s;
+	transition-duration: 1s;
+}
+
+#resume {
+	position: relative;
+	margin-top: 5px;
+	padding: 3px;
+	border: lightgray 3px inset;
+	border-radius: 90px;
+}
+
+#resumebox {
+	position: absolute;
+	bottom: 230px;
+}
+
+#resumebox:after {
+	content: 'Resume';
+}
+
+#linkedin {
+	border-radius: 10px;
+	margin-top: 5px;
+	border: 2px #1B4482 solid;
+}
+
+#linkedinbox {
+	position: absolute;
+	bottom: 165px;
+}
+
+#linkedinbox:after {
+	content: 'LinkedIn';
+}
+
+#github {
+	margin-top: 3px;
+}
+
+#githubbox {
+	position: absolute;
+	bottom: 100px;
+}
+
+
+#githubbox:after {
+	content: 'GitHub';
+}
