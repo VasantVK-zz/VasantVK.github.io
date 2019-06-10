@@ -18,10 +18,10 @@
 	height: 55px;
 	padding-top: 5px;
 	padding-bottom: 2px;
-	padding-right: 3px;
+	padding-right: 0px;
 	background-color: black;
 	border: 3px solid;
-	border-color: white;
+	border-color: gray;
 	border-left-color: black;
 	color: white;
 	text-align: left;
@@ -92,4 +92,20 @@
 
 #githubbox:after {
 	content: 'GitHub';
+}
+
+#kaggle {
+	border-radius: 15px;
+	margin-top: 2px;
+	border: 2px #1B4482 solid;
+}
+
+#kagglebox {
+	position: absolute;
+	bottom: 35px;
+}
+
+
+#kagglebox:after {
+	content: 'Kaggle';
 }

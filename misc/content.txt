@@ -1,0 +1,40 @@
+Hello & Welcome to my personal page!
+
+(Personal Details)
+My name is Vasant Kurvari
+
+I am an undergraduate student at Texas A&M University studying Industrial Engineering with a focus on software and data.
+
+(Characteristics)
+- Always Smiling, Introverted, Realist, Goofy, etc.
+
+(Hobbies)
+Some of my hobbies include
+- Learning!
+-- Always look for new skills and become a semi-expert whenever confronted with a deicison
+-- Have fixed my own laptop, built parts of my computer, invested in mutual funds & bonds, play the flute, keep up with news/politics of USA/India, learn about philosophies and enact it through religion/practices
+-- Very interested in technology; Android, machine learning, data science, optimization
+- Video Games
+-- Genres: RPGs, Strategy, FPSs
+-- *Examples*
+- Fitness
+-- I do a lot of abdominal/upperbody workout
+-- *Routine*
+- History
+-- Enjoy shows *Rome, Vikings*
+-- Like Hellenistic/Classical/Medieval Europe and India, And of course USA :)
+- Culture, Language, and Religion
+-- I am half north and half south Indian; I know Hindi well and some Telugu
+-- I am occasionally practicing hindu: arya samaji
+-- Always enjoy going back to India
+-- *Pictures*
+- Travel
+-- Domestic *California/New York*
+-- Foreign *India/Honduras/Canada*
+- Social Media/Memes
+-- I am a big memer
+
+
+(Links)
+- LinkedIn, Github/Kaggle, Resume, Instagram
+- Cybermanufacturing, Corps of Cadets, IFTP, GEB
